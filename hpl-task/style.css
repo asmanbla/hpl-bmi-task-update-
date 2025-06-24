@@ -1,0 +1,137 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.site-header {
+  background-color: #416c9a;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  color: white;
+}
+
+.site-header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav ul li a:hover {
+  color: #93ddf2;
+}
+
+/* Reset dan font */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f7fb;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header judul */
+h3 {
+    text-align: center;
+    margin-top: 2rem;
+    color: #416c9a;
+    font-weight: 600;
+}
+
+/*  Text judul */
+.text-judul {
+    font-weight: 500;
+    font-size: 14px;
+    color: #416c9a;
+    text-align: center;
+}
+
+
+/* Form container */
+.hpl-form {
+    max-width: 450px;
+    background-color: #ffffff;
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul dalam form */
+.judul {
+    text-align: center;
+    font-weight: bold;
+    color: #416c9a;
+    margin-bottom: 1rem;
+}
+
+/* Input field */
+input[type="date"] {
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+/* Tombol kirim */
+button.btn-kirim {
+    background-color: #416c9a;
+    color: white;
+    padding: 0.75rem;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+button.btn-kirim:hover {
+    background-color: rgb(100, 136, 198);
+}
+
+/* btn ke hpl style */
+.btn-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #64acc6; /* biru */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-link:hover {
+    background-color: #5692c3; /* lebih gelap saat hover */
+}
+
+
+

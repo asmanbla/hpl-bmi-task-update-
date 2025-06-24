@@ -1,0 +1,142 @@
+/* Style Icon */
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.site-header {
+  background-color:  #416c9a;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  color: white;
+}
+
+.site-header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav ul li a:hover {
+  color: #428699;
+}
+
+.hasil-perhitungan {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 30px 20px;
+}
+
+.icon-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.step {
+  max-width: 180px;
+}
+
+.circle {
+  background-color: #397289;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.circle img {
+  width: 50%;
+  height: auto;
+}
+
+.step p {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.value-row {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  font-size: 24px;
+  color: #5479a0;
+  margin: 20px 0;
+}
+
+.value {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.info {
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #333;
+}
+
+.info a {
+  color: #4a7098;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn-ulang {
+  margin-top: 20px;
+  background-color: #416c9a;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Output hasil */
+.output {
+    max-width: 600px;
+    margin: 1rem auto;
+    background-color: #e9f5ff;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    color: #4b6b9b;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    font-family: 'Poppins', sans-serif;
+}
